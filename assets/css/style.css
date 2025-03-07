@@ -8,6 +8,13 @@
  * Licensed under MIT
 */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body {
     font: 300 14px/1.8 'Raleway', sans-serif;
     color: #666;
@@ -680,7 +687,7 @@ textarea.form-control {
 
 .scroll-down2 {
     position: absolute;
-    left: 47%;
+    left: 48%;
     top: -40%;
     border-style: solid;
     border-color: rosybrown;
