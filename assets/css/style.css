@@ -1460,7 +1460,13 @@ figure.effect-bubba:hover p {
 
 @media screen and (max-width: 600px) {
     .scroll-down2 {
-        left: 44%;
+        left: 43%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .scroll-down2 {
+        left: 42%;
     }
 }
 
