@@ -850,7 +850,7 @@ textarea.form-control {
 
     h2 {
         font-size: 24px;
-        margin: 0 0 30px;
+        margin: 0 34px 30px;
         letter-spacing: 3px;
     }
 }
@@ -1464,9 +1464,16 @@ figure.effect-bubba:hover p {
     }
 }
 
+@media screen and (max-width: 598px) {
+    .scroll-down2 {
+         
+        top: -27%;
+    }
+}
 @media screen and (max-width: 500px) {
     .scroll-down2 {
-        left: 42%;
+        left: 42%; 
+        top: -27%;
     }
 }
 
